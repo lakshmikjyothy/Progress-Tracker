@@ -98,13 +98,13 @@ button {
   height: 100%;
   background: linear-gradient(
     135deg,
-    #007BFF 25%,
-    #339BFF 25%,
-    #339BFF 50%,
-    #007BFF 50%,
-    #007BFF 75%,
-    #339BFF 75%,
-    #339BFF 100%
+    #00ff15 25%,
+    #57d92481 25%,
+    #57d92481 50%,
+    #00ff15 50%,
+    #00ff15 75%,
+    #57d92481 75%,
+    #57d92481 100%
   );
   background-size: 40px 40px;
   animation: flow 1s linear infinite;
