@@ -11,12 +11,82 @@ const studentData = {
       MATHEMATICS: ["Lesson 1 - Integers", "Lesson 2", "Lesson 3"],
       HINDI: ["Lesson 1", "Lesson 2", "Lesson 3"],
       IT: ["Lesson 1", "Lesson 2", "Lesson 3"],
-      ENGLISH: ["Lesson 1", "Lesson 2", "Lesson 3"],
+      ENGLISH: ["Lesson 1 - Three Questions", "Lesson 2 - The Squirrel", "Lesson 3 - A Gift of Chappals", "Lesson 4 - The Rebel", "Supplementary Reader"],
       MALAYALAM: ["Lesson 1", "Lesson 2", "Lesson 3"],
       SOCIAL_SCIENCE: ["Lesson 1", "Lesson 2", "Lesson 3"],
       GENERAL_SCIENCE: ["Lesson 1 - The Ever Evolving World of Science", "Lesson 2 - Exploring Substances - Basic, Acidic & Neutral", "Lesson 3 - Electricity Circuits & Its Components"],
     },
   };
+
+  function onButtonClick() {
+
+    document.querySelectorAll('.btn-grad').forEach(button => {
+      button.addEventListener('mousedown', () => {
+        button.style.transition = 'transform 0.1s ease';
+        button.style.transform = 'scale(0.95)';
+        button.style.cursor = 'grabbing';
+      });
+    
+      button.addEventListener('mouseup', () => {
+        button.style.transform = 'scale(1)';
+        button.style.cursor = 'grab';
+      });
+    
+      button.addEventListener('mouseleave', () => {
+        button.style.transform = 'scale(1)';
+        button.style.cursor = 'grab';
+      });
+    });
+    
+
+    const hero = document.querySelector('.hero');
+
+    // Reset .hero layout
+    Object.assign(hero.style, {
+      display: 'block',
+      minHeight: 'auto',
+      height: 'auto',
+      justifyContent: 'initial',
+      alignItems: 'initial',
+      paddingTop: '2rem',
+      paddingBottom: '1rem',
+    });
+
+    // Hide the <h1> element inside .hero
+    const heading = hero.querySelector('h1');
+    if (heading) heading.style.display = 'none';
+
+    // Reposition buttons-wrapper
+    const buttonsWrapper = document.querySelector('.buttons-wrapper');
+    Object.assign(buttonsWrapper.style, {
+      marginTop: '0',
+      paddingTop: '0',
+      display: 'flex',
+      justifyContent: 'center'
+    });
+  }
+
+
+
+  function markLessonsAsDone(student, subject, lessons) {
+    const saved = JSON.parse(localStorage.getItem(student) || '{}');
+    if (!saved[subject]) saved[subject] = {};
+    lessons.forEach(lesson => {
+      saved[subject][lesson] = true;
+    });
+    localStorage.setItem(student, JSON.stringify(saved));
+  }
+
+  // markLessonsAsDone("JELWIN", "EVS", [
+  //   "Lesson 1 - Family & Friends",
+  //   "Lesson 2 - Life Around Us"
+  // ]);
+
+  // markLessonsAsDone("JEWEL", "GENERAL SCIENCE", [
+  //   "Lesson 1 - Family & Friends",
+  //   "Lesson 2 - Life Around Us"
+  // ]);
+  
   
   function selectStudent(student) {
     const section = document.getElementById('progress-section');
@@ -43,7 +113,7 @@ const studentData = {
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.checked = checked;
-        checkbox.disabled = true; // ✅ Disable checkbox (read-only mode)
+        checkbox.addEventListener('click', (e) => e.preventDefault()); // ✅ fake readonly
   
         label.appendChild(checkbox);
         label.appendChild(document.createTextNode(' ' + lesson));
@@ -74,5 +144,9 @@ const studentData = {
     }, 100);
   }
   
-  
+  // ✅ Scroll sync for cyber background movement
+window.addEventListener('scroll', () => {
+  const scrollY = window.scrollY / 1000;
+  document.documentElement.style.setProperty('--scroll', scrollY);
+});
   
