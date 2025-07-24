@@ -207,7 +207,7 @@ button {
 }
 
 .grid-container .glow {
-  filter: blur(0.5rem);
+  filter: blur(0.3rem);
   z-index: 1;
   mix-blend-mode: plus-lighter;
 }
