@@ -77,17 +77,19 @@ const studentData = {
     localStorage.setItem(student, JSON.stringify(saved));
   }
 
+  localStorage.clear(); // ⚠️ Clears everything in localStorage
+
+
   markLessonsAsDone("JELWIN", "EVS", [
-    "Lesson 1 - Family & Friends",
-    // "Lesson 2 - Life Around Us"
+    "Lesson 1 - Family & Friends"
   ]);
 
   markLessonsAsDone("JELWIN", "HINDI", [
-    "Lesson 3 - Sher Ka Aasan",
+    "Lesson 3 - Sher Ka Aasan"
   ]);
 
-  markLessonsAsDone("JEWEL", "GENERAL SCIENCE", [
-    "Lesson 3 - Electricity Circuits & Its Components",
+  markLessonsAsDone("JEWEL", "GENERAL_SCIENCE", [
+    "Lesson 3 - Electricity Circuits & Its Components"
   ]);
 
   
