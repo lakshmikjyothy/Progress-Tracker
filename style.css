@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); 
+                            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+    color: white;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+  
+  .content {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .subject {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  
+  .progress-container {
+    margin-top: 2rem;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    background: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    position: relative; /* Needed for ::before */
+    height: 100%;
+    background: linear-gradient(
+      135deg,
+      #4caf50 25%,
+      #66bb6a 25%,
+      #66bb6a 50%,
+      #4caf50 50%,
+      #4caf50 75%,
+      #66bb6a 75%,
+      #66bb6a 100%
+    );
+    background-size: 40px 40px;
+    animation: flow 1s linear infinite;
+    border-radius: 10px;
+    width: 0%;
+    transition: width 1s ease-out;
+    overflow: hidden;
+  }
+  
+  
+  @keyframes flow {
+    0% { background-position: 0 0; }
+    100% { background-position: 40px 0; }
+  }
+
+  /* Reveal effect overlay for progress-fill */
+  .progress-fill::before {
+    content: "";
+    position: absolute;
+    inset: 0 100% 0 0;
+    background: inherit;
+    border-radius: inherit;
+    animation: slideReveal 2s forwards;
+  }
+
+  /* Only animate when class .reveal is added */
+  .progress-fill.reveal::before {
+    animation: slideReveal 2s forwards;
+  }
+
+  /* Keyframes for reveal */
+  @keyframes slideReveal {
+    100% {
+      inset: 0;
+    }
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+
+  }
+
+   .btn-grad {background-image: linear-gradient(to right, #8e9eab 0%, #eef2f3  51%, #8e9eab  100%)}
+   .btn-grad {
+      margin: 10px;
+      padding: 15px 45px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: black;            
+      box-shadow: 0 0 2px #eee;
+      border-radius: 10px;
+      display: block;
+      font-weight: bold;
+      border-color: rgba(255, 255, 255, 0.778);
+    }
+
+    .btn-grad:hover {
+      background-position: right center; /* change the direction of the change here */
+      color: rgb(77, 77, 77);
+      text-decoration: none;
+    }
+   
+  
