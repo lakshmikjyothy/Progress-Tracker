@@ -7,11 +7,26 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- 🔧 Cyber Grid Background -->
+  <div class="grid-container">
+    <div class="plane">
+      <div></div>
+    </div>
+    <div class="plane glow">
+      <div></div>
+    </div>
+  </div>
+
+  <!-- 🔧 Main Content -->
   <div class="content">
-    <h1>Welcome, parents! Here’s a snapshot of your children’s academic journey.</h1>
-    <div class="buttons">
-      <button class="btn-grad" onclick="selectStudent('JELWIN')">JELWIN</button>
-      <button class="btn-grad" onclick="selectStudent('JEWEL')">JEWEL</button>      
+    <div class="hero">
+      <h1>Welcome, parents! Here’s a snapshot of your children’s academic journey.</h1>
+      <div class="buttons-wrapper">
+        <div class="buttons">
+          <button class="btn-grad" onclick="selectStudent('JELWIN'), onButtonClick()">JELWIN</button>
+          <button class="btn-grad" onclick="selectStudent('JEWEL'), onButtonClick()">JEWEL</button>      
+        </div>
+      </div>
     </div>
     <div id="progress-section"></div>
   </div>
