@@ -8,12 +8,12 @@ const studentData = {
       MATHEMATICS: ["Lesson 1 - What's in a Name", "Lesson 2 - Toy Joy", "Lesson 3 - Double Century"]
     },
     JEWEL: {
-      MATHEMATICS: ["Lesson 1 - Integers", "Lesson 2", "Lesson 3"],
-      HINDI: ["Lesson 1", "Lesson 2", "Lesson 3"],
-      IT: ["Lesson 1", "Lesson 2", "Lesson 3"],
-      ENGLISH: ["Lesson 1 - Three Questions", "Lesson 2 - The Squirrel", "Lesson 3 - A Gift of Chappals", "Lesson 4 - The Rebel", "Supplementary Reader"],
+      MATHEMATICS: ["Lesson 1 - Integers", "Lesson 2 - Large Numbers", "Lesson 3 - Arithmetic Expressions"],
+      HINDI: ["Lesson 1 - Desh Hamara Pyara Pyara", "Lesson 2 - Onam Ka Tyohar", "Lesson 3 - Dadi Maa Ka Ashirvad"],
+      IT: ["Lesson 1 - Introduction to Number System", "Lesson 2 - Cyber Security", "Lesson 7 - Creating Animations With Canva"],
+      ENGLISH: ["Lesson 1 - Three Questions", "Lesson 2 - The Squirrel", "Lesson 3 - A Gift of Chappals", "Lesson 4 - The Rebel", "Lesson 1 (Supplementary Reader)"],
       MALAYALAM: ["Lesson 1", "Lesson 2", "Lesson 3"],
-      SOCIAL_SCIENCE: ["Lesson 1", "Lesson 2", "Lesson 3"],
+      SOCIAL_SCIENCE: ["Lesson 1 - Tracing Changes (H)", "Lesson 2 - New Kings & Kingdoms (H)", "Lesson 1 - Environment (G)", "Lesson 2 - Inside Our Earth (G)", "Lesson 1 - On Equality (P)", "Lesson 2 - Role of the Government in Health"],
       GENERAL_SCIENCE: ["Lesson 1 - The Ever Evolving World of Science", "Lesson 2 - Exploring Substances - Basic, Acidic & Neutral", "Lesson 3 - Electricity Circuits & Its Components"],
     },
   };
@@ -77,15 +77,19 @@ const studentData = {
     localStorage.setItem(student, JSON.stringify(saved));
   }
 
-  // markLessonsAsDone("JELWIN", "EVS", [
-  //   "Lesson 1 - Family & Friends",
-  //   "Lesson 2 - Life Around Us"
-  // ]);
+  markLessonsAsDone("JELWIN", "EVS", [
+    "Lesson 1 - Family & Friends",
+    // "Lesson 2 - Life Around Us"
+  ]);
 
-  // markLessonsAsDone("JEWEL", "GENERAL SCIENCE", [
-  //   "Lesson 1 - Family & Friends",
-  //   "Lesson 2 - Life Around Us"
-  // ]);
+  markLessonsAsDone("JELWIN", "Hindi", [
+    "Lesson 3 - Sher Ka Aasan",
+  ]);
+
+  markLessonsAsDone("JEWEL", "GENERAL SCIENCE", [
+    "Lesson 3 - Electricity Circuits & Its Components",
+  ]);
+
   
   
   function selectStudent(student) {
