@@ -82,7 +82,7 @@ const studentData = {
     // "Lesson 2 - Life Around Us"
   ]);
 
-  markLessonsAsDone("JELWIN", "Hindi", [
+  markLessonsAsDone("JELWIN", "HINDI", [
     "Lesson 3 - Sher Ka Aasan",
   ]);
 
