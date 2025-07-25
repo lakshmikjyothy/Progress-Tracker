@@ -85,12 +85,30 @@ const studentData = {
   ]);
 
   markLessonsAsDone("JELWIN", "HINDI", [
-    "Lesson 3 - Sher Ka Aasan"
+    "Lesson 3 - Sher Ka Aasan",
+    "Lesson 2 - Thithaly"
+   
   ]);
+
+  markLessonsAsDone("JELWIN", "MATHEMATICS", [
+    "Lesson 3 - Double Century"
+  ]);
+
 
   markLessonsAsDone("JEWEL", "GENERAL_SCIENCE", [
     "Lesson 3 - Electricity Circuits & Its Components"
   ]);
+
+  markLessonsAsDone("JEWEL", "HINDI", [
+    "Lesson 1 - Desh Hamara Pyara Pyara"
+  ]);
+
+  markLessonsAsDone("JEWEL", "MATHEMATICS", [
+    "Lesson 2 - Large Numbers"
+  ]);
+
+
+
 
   
   
