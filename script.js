@@ -1,6 +1,6 @@
 const studentData = {
     JELWIN: {
-      EVS: ["Lesson 1 - Family & Friends", "Lesson 2 - Life Around Us", "Lesson 3 - Celebrating Festivals"],
+      EVS: ["Lesson 1 - Family & Friends", "Lesson 2 - Going to the Mela", "Lesson 3 - Celebrating Festivals"],
       HINDI: ["Lesson 1 - Chitra Katha", "Lesson 2 - Thithaly", "Lesson 3 - Sher Ka Aasan"],
       MALAYALAM: ["Lesson 1 - വിട്ടയയ്ക്കുക", "Lesson 2 - സന്തോഷവാനായ രാജകുമാരൻ", "Lesson 3 - ഓണക്കാഴ്ച"],
       IT: ["Lesson 1 - Understanding Computers", "Lesson 5 - Let Us Paint"],
@@ -81,13 +81,15 @@ const studentData = {
 
 
   markLessonsAsDone("JELWIN", "EVS", [
-    "Lesson 1 - Family & Friends"
+    "Lesson 1 - Family & Friends",
+    "Lesson 2 - Going to the Mela", 
+    "Lesson 3 - Celebrating Festivals"
   ]);
 
   markLessonsAsDone("JELWIN", "HINDI", [
     "Lesson 3 - Sher Ka Aasan",
-    "Lesson 2 - Thithaly"
-   
+    "Lesson 2 - Thithaly",
+    "Lesson 1 - Chitra Katha" 
   ]);
 
   markLessonsAsDone("JELWIN", "MATHEMATICS", [
@@ -104,7 +106,8 @@ const studentData = {
   ]);
 
   markLessonsAsDone("JEWEL", "MATHEMATICS", [
-    "Lesson 2 - Large Numbers"
+    "Lesson 2 - Large Numbers",
+    "Lesson 3 - Arithmetic Expressions"
   ]);
 
 
