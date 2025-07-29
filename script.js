@@ -98,7 +98,8 @@ const studentData = {
   ]);
 
   markLessonsAsDone("JELWIN", "MALAYALAM", [
-    "Lesson 1 - വിട്ടയയ്ക്കുക"
+    "Lesson 1 - വിട്ടയയ്ക്കുക", 
+    "Lesson 2 - സന്തോഷവാനായ രാജകുമാരൻ"
   ]);
 
 
@@ -107,7 +108,8 @@ const studentData = {
   ]);
 
   markLessonsAsDone("JEWEL", "HINDI", [
-    "Lesson 1 - Desh Hamara Pyara Pyara"
+    "Lesson 1 - Desh Hamara Pyara Pyara",
+    "Lesson 3 - Dadi Maa Ka Ashirvad"
   ]);
 
   markLessonsAsDone("JEWEL", "MATHEMATICS", [
