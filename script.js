@@ -104,7 +104,9 @@ const studentData = {
 
 
   markLessonsAsDone("JEWEL", "GENERAL_SCIENCE", [
-    "Lesson 3 - Electricity Circuits & Its Components"
+    "Lesson 3 - Electricity Circuits & Its Components",
+    "Lesson 1 - The Ever Evolving World of Science", 
+    "Lesson 2 - Exploring Substances - Basic, Acidic & Neutral"
   ]);
 
   markLessonsAsDone("JEWEL", "HINDI", [
