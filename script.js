@@ -4,7 +4,7 @@ const studentData = {
       HINDI: ["Lesson 1 - Chitra Katha", "Lesson 2 - Thithaly", "Lesson 3 - Sher Ka Aasan"],
       MALAYALAM: ["Lesson 1 - വിട്ടയയ്ക്കുക", "Lesson 2 - സന്തോഷവാനായ രാജകുമാരൻ", "Lesson 3 - ഓണക്കാഴ്ച"],
       IT: ["Lesson 1 - Understanding Computers", "Lesson 5 - Let Us Paint"],
-      ENGLISH: ["Lesson 1 - Fun With Friends", "Lesson 2 - Colours", "Lesson 3 - Badal & Moti", "Lesson 2 - Best Friends", "Grammar 1 - Noun & Types of Noun", "Grammar 2 - Singular & Plural" ],
+      ENGLISH: ["Lesson 1 - Fun With Friends", "Lesson 2 - Colours", "Lesson 3 - Badal & Moti", "Lesson 4 - Best Friends", "Grammar 1 - Noun & Types of Noun", "Grammar 2 - Singular & Plural" ],
       MATHEMATICS: ["Lesson 1 - What's in a Name", "Lesson 2 - Toy Joy", "Lesson 3 - Double Century"]
     },
     JEWEL: {
@@ -12,11 +12,11 @@ const studentData = {
       HINDI: ["Lesson 1 - Desh Hamara Pyara Pyara", "Lesson 2 - Onam Ka Tyohar", "Lesson 3 - Dadi Maa Ka Ashirvad"],
       IT: ["Lesson 1 - Introduction to Number System", "Lesson 2 - Cyber Security", "Lesson 7 - Creating Animations With Canva"],
       ENGLISH: ["Lesson 1 - Three Questions", "Lesson 2 - The Squirrel", "Lesson 3 - A Gift of Chappals", "Lesson 4 - The Rebel", "Lesson 1 (Supplementary Reader)"],
-      MALAYALAM: ["Lesson 1 - ഇത് ആരുടെ ഭൂമി?", "Lesson 2 - കുട്ടിക്കാലം", "Lesson 3"],
+      MALAYALAM: ["Lesson 1 - ഇത് ആരുടെ ഭൂമി?", "Lesson 2 - കുട്ടിക്കാലം"],
       SOCIAL_SCIENCE: ["Lesson 1 - Tracing Changes (H)", "Lesson 2 - New Kings & Kingdoms (H)", "Lesson 1 - Environment (G)", "Lesson 2 - Inside Our Earth (G)", "Lesson 1 - On Equality (P)", "Lesson 2 - Role of the Government in Health"],
-      GENERAL_SCIENCE: ["Lesson 1 - The Ever Evolving World of Science", "Lesson 2 - Exploring Substances - Basic, Acidic & Neutral", "Lesson 3 - Electricity Circuits & Its Components"],
+      GENERAL_SCIENCE: ["Lesson 1 - The Ever Evolving World of Science", "Lesson 2 - Exploring Substances - Basic, Acidic & Neutral"],
     },
-  };
+  }; 
 
   function onButtonClick() {
 
@@ -104,14 +104,14 @@ const studentData = {
 
 
   markLessonsAsDone("JEWEL", "GENERAL_SCIENCE", [
-    "Lesson 3 - Electricity Circuits & Its Components",
     "Lesson 1 - The Ever Evolving World of Science", 
     "Lesson 2 - Exploring Substances - Basic, Acidic & Neutral"
   ]);
 
   markLessonsAsDone("JEWEL", "HINDI", [
     "Lesson 1 - Desh Hamara Pyara Pyara",
-    "Lesson 3 - Dadi Maa Ka Ashirvad"
+    "Lesson 3 - Dadi Maa Ka Ashirvad",
+    "Lesson 2 - Onam Ka Tyohar"
   ]);
 
   markLessonsAsDone("JEWEL", "MATHEMATICS", [
@@ -127,6 +127,12 @@ const studentData = {
   markLessonsAsDone("JEWEL", "MALAYALAM", [
     "Lesson 1 - ഇത് ആരുടെ ഭൂമി?",
     "Lesson 2 - കുട്ടിക്കാലം"
+  ]);
+
+  markLessonsAsDone("JEWEL", "ENGLISH", [
+    "Lesson 1 - Three Questions", 
+    "Lesson 2 - The Squirrel", 
+    "Lesson 3 - A Gift of Chappals"
   ]);
 
 
