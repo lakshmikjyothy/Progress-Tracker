@@ -13,7 +13,7 @@ const studentData = {
       IT: ["Lesson 1 - Introduction to Number System", "Lesson 2 - Cyber Security", "Lesson 7 - Creating Animations With Canva"],
       ENGLISH: ["Lesson 1 - Three Questions", "Lesson 2 - The Squirrel", "Lesson 3 - A Gift of Chappals", "Lesson 4 - The Rebel", "Lesson 1 (Supplementary Reader)"],
       MALAYALAM: ["Lesson 1 - ഇത് ആരുടെ ഭൂമി?", "Lesson 2 - കുട്ടിക്കാലം"],
-      SOCIAL_SCIENCE: ["Lesson 1 - Tracing Changes (H)", "Lesson 2 - New Kings & Kingdoms (H)", "Lesson 1 - Environment (G)", "Lesson 2 - Inside Our Earth (G)", "Lesson 1 - On Equality (P)", "Lesson 2 - Role of the Government in Health"],
+      SOCIAL_SCIENCE: ["Lesson 1 - Tracing Changes (H)", "Lesson 2 - New Kings & Kingdoms (H)", "Lesson 1 - Environment (G)", "Lesson 2 - Inside Our Earth (G)", "Lesson 1 - On Equality (P)", "Lesson 2 - Role of the Government in Health (P)"],
       GENERAL_SCIENCE: ["Lesson 1 - The Ever Evolving World of Science", "Lesson 2 - Exploring Substances - Basic, Acidic & Neutral"],
     },
   }; 
@@ -101,6 +101,14 @@ const studentData = {
     "Lesson 1 - വിട്ടയയ്ക്കുക", 
     "Lesson 2 - സന്തോഷവാനായ രാജകുമാരൻ"
   ]);
+  
+  markLessonsAsDone("JELWIN", "ENGLISH", [
+    "Lesson 1 - Fun With Friends", 
+    "Lesson 2 - Colours", 
+    "Lesson 3 - Badal & Moti", 
+    "Lesson 4 - Best Friends", 
+    "Grammar 1 - Noun & Types of Noun"
+  ]);
 
 
   markLessonsAsDone("JEWEL", "GENERAL_SCIENCE", [
@@ -135,9 +143,9 @@ const studentData = {
     "Lesson 3 - A Gift of Chappals"
   ]);
 
-
-
-
+  markLessonsAsDone("JEWEL", "SOCIAL_SCIENCE", [
+    "Lesson 1 - Environment (G)"
+  ]);
   
   
   function selectStudent(student) {
