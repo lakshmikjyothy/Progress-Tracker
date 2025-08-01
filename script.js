@@ -107,7 +107,8 @@ const studentData = {
     "Lesson 2 - Colours", 
     "Lesson 3 - Badal & Moti", 
     "Lesson 4 - Best Friends", 
-    "Grammar 1 - Noun & Types of Noun"
+    "Grammar 1 - Noun & Types of Noun",
+    "Grammar 2 - Singular & Plural"
   ]);
 
 
@@ -124,12 +125,14 @@ const studentData = {
 
   markLessonsAsDone("JEWEL", "MATHEMATICS", [
     "Lesson 2 - Large Numbers",
-    "Lesson 3 - Arithmetic Expressions"
+    "Lesson 3 - Arithmetic Expressions",
+    "Lesson 1 - Integers"
   ]);
 
   markLessonsAsDone("JEWEL", "IT", [
     "Lesson 2 - Cyber Security", 
-    "Lesson 7 - Creating Animations With Canva"
+    "Lesson 7 - Creating Animations With Canva",
+    "Lesson 1 - Introduction to Number System"
   ]);
 
   markLessonsAsDone("JEWEL", "MALAYALAM", [
@@ -140,11 +143,13 @@ const studentData = {
   markLessonsAsDone("JEWEL", "ENGLISH", [
     "Lesson 1 - Three Questions", 
     "Lesson 2 - The Squirrel", 
-    "Lesson 3 - A Gift of Chappals"
+    "Lesson 3 - A Gift of Chappals",
+    "Lesson 4 - The Rebel"
   ]);
 
   markLessonsAsDone("JEWEL", "SOCIAL_SCIENCE", [
-    "Lesson 1 - Environment (G)"
+    "Lesson 1 - Environment (G)",
+    "Lesson 2 - Role of the Government in Health (P)"
   ]);
   
   
