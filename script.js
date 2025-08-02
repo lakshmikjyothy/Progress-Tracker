@@ -94,12 +94,14 @@ const studentData = {
 
   markLessonsAsDone("JELWIN", "MATHEMATICS", [
     "Lesson 3 - Double Century", 
-    "Lesson 2 - Toy Joy"
+    "Lesson 2 - Toy Joy",
+    "Lesson 1 - What's in a Name"
   ]);
 
   markLessonsAsDone("JELWIN", "MALAYALAM", [
     "Lesson 1 - വിട്ടയയ്ക്കുക", 
-    "Lesson 2 - സന്തോഷവാനായ രാജകുമാരൻ"
+    "Lesson 2 - സന്തോഷവാനായ രാജകുമാരൻ",
+    "Lesson 3 - ഓണക്കാഴ്ച"
   ]);
   
   markLessonsAsDone("JELWIN", "ENGLISH", [
@@ -144,12 +146,17 @@ const studentData = {
     "Lesson 1 - Three Questions", 
     "Lesson 2 - The Squirrel", 
     "Lesson 3 - A Gift of Chappals",
-    "Lesson 4 - The Rebel"
+    "Lesson 4 - The Rebel",
+    // "Lesson 1 (Supplementary Reader)"
   ]);
 
   markLessonsAsDone("JEWEL", "SOCIAL_SCIENCE", [
-    "Lesson 1 - Environment (G)",
-    "Lesson 2 - Role of the Government in Health (P)"
+    "Lesson 1 - Environment (G)",  
+    "Lesson 2 - Role of the Government in Health (P)",
+    "Lesson 1 - Tracing Changes (H)", 
+    "Lesson 2 - Inside Our Earth (G)",
+    "Lesson 1 - On Equality (P)",
+    // "Lesson 2 - New Kings & Kingdoms (H)",
   ]);
   
   
