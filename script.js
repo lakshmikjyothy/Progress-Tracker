@@ -113,6 +113,10 @@ const studentData = {
     "Grammar 2 - Singular & Plural"
   ]);
 
+  markLessonsAsDone("JELWIN", "IT", [
+    "Lesson 1 - Understanding Computers", 
+    "Lesson 5 - Let Us Paint"
+  ]);
 
   markLessonsAsDone("JEWEL", "GENERAL_SCIENCE", [
     "Lesson 1 - The Ever Evolving World of Science", 
@@ -147,7 +151,7 @@ const studentData = {
     "Lesson 2 - The Squirrel", 
     "Lesson 3 - A Gift of Chappals",
     "Lesson 4 - The Rebel",
-    // "Lesson 1 (Supplementary Reader)"
+    "Lesson 1 (Supplementary Reader)"
   ]);
 
   markLessonsAsDone("JEWEL", "SOCIAL_SCIENCE", [
@@ -156,7 +160,7 @@ const studentData = {
     "Lesson 1 - Tracing Changes (H)", 
     "Lesson 2 - Inside Our Earth (G)",
     "Lesson 1 - On Equality (P)",
-    // "Lesson 2 - New Kings & Kingdoms (H)",
+    "Lesson 2 - New Kings & Kingdoms (H)",
   ]);
   
   
