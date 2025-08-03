@@ -49,7 +49,7 @@ const studentData = {
       justifyContent: 'initial',
       alignItems: 'initial',
       paddingTop: '2rem',
-      paddingBottom: '1rem',
+      paddingBottom: '0',
     });
 
     // Hide the <h1> element inside .hero
@@ -207,7 +207,9 @@ const studentData = {
         <div class="progress-fill" style="width: 0%"></div>
       </div>
     `;
-    section.appendChild(progressDiv);
+    // section.appendChild(progressDiv);
+    section.insertBefore(progressDiv, section.firstChild);
+
   
     // Animate progress fill
     setTimeout(() => {
