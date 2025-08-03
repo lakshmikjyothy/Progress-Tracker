@@ -49,7 +49,7 @@ const studentData = {
       justifyContent: 'initial',
       alignItems: 'initial',
       paddingTop: '2rem',
-      paddingBottom: '3rem',
+      paddingBottom: '2rem',
     });
 
     // Hide the <h1> element inside .hero
@@ -202,20 +202,32 @@ const studentData = {
     const progressDiv = document.createElement('div');
     progressDiv.className = 'progress-container';
     progressDiv.innerHTML = `
-      <h3>Overall Progress: ${percent}%</h3>
+      <h3 id="progress-text">Overall Progress: 0%</h3>
       <div class="progress-bar">
         <div class="progress-fill" style="width: 0%"></div>
       </div>
     `;
-    // section.appendChild(progressDiv);
     section.insertBefore(progressDiv, section.firstChild);
-
-  
+    
     // Animate progress fill
     setTimeout(() => {
       const bar = section.querySelector('.progress-fill');
       bar.style.width = `${percent}%`;
     }, 100);
+    
+    // Animate number count from 0 to percent synced with bar (1s total)
+    let current = 0;
+    const progressText = document.getElementById('progress-text');
+    const duration = 1000; // match progress bar's CSS transition duration
+    const stepTime = percent > 0 ? duration / percent : duration;
+
+    const interval = setInterval(() => {
+      current++;
+      progressText.textContent = `Overall Progress: ${current}%`;
+      if (current >= percent) clearInterval(interval);
+    }, stepTime);
+
+    
   }
   
   // ✅ Scroll sync for cyber background movement
@@ -224,5 +236,3 @@ window.addEventListener('scroll', () => {
   document.documentElement.style.setProperty('--scroll', scrollY);
 });
   
-
-
