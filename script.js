@@ -49,7 +49,7 @@ const studentData = {
       justifyContent: 'initial',
       alignItems: 'initial',
       paddingTop: '2rem',
-      paddingBottom: '0',
+      paddingBottom: '1rem',
     });
 
     // Hide the <h1> element inside .hero
@@ -224,3 +224,4 @@ window.addEventListener('scroll', () => {
   document.documentElement.style.setProperty('--scroll', scrollY);
 });
   
+
