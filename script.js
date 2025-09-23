@@ -1,22 +1,22 @@
 
 const studentData = {
     JELWIN: {
-        EVS: ["Lesson 1 - Family & Friends", "Lesson 2 - Going to the Mela", "Lesson 3 - Celebrating Festivals", "Lesson 4 - Getting to know Plants", "Lesson 5 - Plants & Animals Live Together", "Lesson 6 - Living in Harmony"],
-        HINDI: ["Lesson 1 - Chitra Katha", "Lesson 2 - Thithaly", "Lesson 3 - Sher Ka Aasan", "Lesson 4 - Koove Ka Mendak", "Lesson 5  - Kadam Badaavo", "Lesson 6 - Chaalaak Machali"],
+        MATHEMATICS: ["Lesson 1 - What's in a Name", "Lesson 2 - Toy Joy", "Lesson 3 - Double Century", "Lesson 4 - Vacation With My Nani Maa", "Lesson 5 - Fun With Shapes", "Lesson 6 - House of Hundreds - I", "Lesson 7 - Raksha Bandhan"], 
+        ENGLISH: ["Lesson 1 - Fun With Friends", "Lesson 2 - Colours", "Lesson 3 - Badal & Moti", "Lesson 4 - Best Friends", "Lesson 5 - Out in the Garden", "Lesson 6 - Talking Toys", "Lesson 7 - Paper Boats", "Grammar 1 - Noun & Types of Noun", "Grammar 2 - Singular & Plural", "Grammar 3 - Pronoun", "Grammar 4 - Helping Verbs"],
+        IT: ["Lesson 1 - Understanding Computers", "Lesson 5 - Let Us Paint"],
         MALAYALAM: ["Lesson 1 - വിട്ടയയ്ക്കുക", "Lesson 2 - സന്തോഷവാനായ രാജകുമാരൻ", "Lesson 3 - ഓണക്കാഴ്ച",
         "Lesson 4 - തെനാലിരാമൻ", "Lesson 5 - നങ്ങേലിയും കുട്ടിയും", "Lesson 6 - ഏഴിലമ്പാലയും കുഞ്ഞിപ്പൂവും"],
-        IT: ["Lesson 1 - Understanding Computers", "Lesson 5 - Let Us Paint"],
-        ENGLISH: ["Lesson 1 - Fun With Friends", "Lesson 2 - Colours", "Lesson 3 - Badal & Moti", "Lesson 4 - Best Friends", "Lesson 5 - Out in the Garden", "Lesson 6 - Talking Toys", "Lesson 7 - Paper Boats", "Grammar 1 - Noun & Types of Noun", "Grammar 2 - Singular & Plural", "Grammar 3 - Pronoun", "Grammar 4 - Helping Verbs"],
-        MATHEMATICS: ["Lesson 1 - What's in a Name", "Lesson 2 - Toy Joy", "Lesson 3 - Double Century", "Lesson 4 - Vacation With My Nani Maa", "Lesson 5 - Fun With Shapes", "Lesson 6 - House of Hundreds - I", "Lesson 7 - Raksha Bandhan"]
+        HINDI: ["Lesson 1 - Chitra Katha", "Lesson 2 - Thithaly", "Lesson 3 - Sher Ka Aasan", "Lesson 4 - Koove Ka Mendak", "Lesson 5  - Kadam Badaavo", "Lesson 6 - Chaalaak Machali"],
+        EVS: ["Lesson 1 - Family & Friends", "Lesson 2 - Going to the Mela", "Lesson 3 - Celebrating Festivals", "Lesson 4 - Getting to know Plants", "Lesson 5 - Plants & Animals Live Together", "Lesson 6 - Living in Harmony"]
     },
     JEWEL: {
-        MATHEMATICS: ["Lesson 1 - Integers", "Lesson 2 - Large Numbers", "Lesson 3 - Arithmetic Expressions"],
-        HINDI: ["Lesson 1 - Desh Hamara Pyara Pyara", "Lesson 2 - Onam Ka Tyohar", "Lesson 3 - Dadi Maa Ka Ashirvad"],
-        IT: ["Lesson 1 - Introduction to Number System", "Lesson 2 - Cyber Security", "Lesson 7 - Creating Animations With Canva"],
-        ENGLISH: ["Lesson 1 - Three Questions", "Lesson 2 - The Squirrel", "Lesson 3 - A Gift of Chappals", "Lesson 4 - The Rebel", "Lesson 1 (Supplementary Reader)"],
-        MALAYALAM: ["Lesson 1 - ഇത് ആരുടെ ഭൂമി?", "Lesson 2 - കുട്ടിക്കാലം"],
         SOCIAL_SCIENCE: ["Lesson 1 - Tracing Changes (H)", "Lesson 2 - New Kings & Kingdoms (H)", "Lesson 1 - Environment (G)", "Lesson 2 - Inside Our Earth (G)", "Lesson 1 - On Equality (P)", "Lesson 2 - Role of the Government in Health (P)"],
+        IT: ["Lesson 1 - Introduction to Number System", "Lesson 2 - Cyber Security", "Lesson 7 - Creating Animations With Canva"],
         GENERAL_SCIENCE: ["Lesson 1 - The Ever Evolving World of Science", "Lesson 2 - Exploring Substances - Basic, Acidic & Neutral", "Lesson 3 - Electricity: Circuits & Their Components", "Lesson 4 - The World of Metals & Non-metals", "Lesson 5 - Changes Around Us: Physical and Chemical", "Lesson 6 - Adolescence: A Stage of Growth & Change"],
+        HINDI: ["Lesson 1 - Desh Hamara Pyara Pyara", "Lesson 2 - Onam Ka Tyohar", "Lesson 3 - Dadi Maa Ka Ashirvad"],
+        ENGLISH: ["Lesson 1 - Three Questions", "Lesson 2 - The Squirrel", "Lesson 3 - A Gift of Chappals", "Lesson 4 - The Rebel", "Lesson 1 (Supplementary Reader)"],
+        MATHEMATICS: ["Lesson 1 - Integers", "Lesson 2 - Large Numbers", "Lesson 3 - Arithmetic Expressions"],
+        MALAYALAM: ["Lesson 1 - ഇത് ആരുടെ ഭൂമി?", "Lesson 2 - കുട്ടിക്കാലം"],
     },
 };
 
