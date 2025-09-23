@@ -1,3 +1,4 @@
+
 const studentData = {
     JELWIN: {
         EVS: ["Lesson 1 - Family & Friends", "Lesson 2 - Going to the Mela", "Lesson 3 - Celebrating Festivals", "Lesson 4 - Getting to know Plants", "Lesson 5 - Plants & Animals Live Together", "Lesson 6 - Living in Harmony"],
@@ -78,8 +79,8 @@ function markLessonsAsDone(student, subject, lessons) {
     localStorage.setItem(student, JSON.stringify(saved));
 }
 
-localStorage.clear(); // ⚠️ Clears everything in localStorage
 
+localStorage.clear(); // ⚠️ Clears everything in localStorage
 
 markLessonsAsDone("JELWIN", "EVS", [
     // "Lesson 1 - Family & Friends",
@@ -203,7 +204,7 @@ function selectStudent(student) {
         section.appendChild(card);
     }
 
-    const percent = Math.round((done / total) * 100);
+    const percent = done === 0 ? 0 : Math.floor((done / total) * 100);
     const progressDiv = document.createElement('div');
     progressDiv.className = 'progress-container';
     progressDiv.innerHTML = `
@@ -221,6 +222,11 @@ function selectStudent(student) {
     }, 100);
 
     // Animate number count from 0 to percent synced with bar (1s total)
+    if (percent === 0) {
+        progressText.textContent = `Overall Progress: 0%`;
+        return;
+    }
+
     let current = 0;
     const progressText = document.getElementById('progress-text');
     const duration = 1000; // match progress bar's CSS transition duration
