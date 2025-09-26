@@ -10,13 +10,13 @@ const studentData = {
         EVS: ["Lesson 1 - Family & Friends", "Lesson 2 - Going to the Mela", "Lesson 3 - Celebrating Festivals", "Lesson 4 - Getting to know Plants", "Lesson 5 - Plants & Animals Live Together", "Lesson 6 - Living in Harmony"]
     },
     JEWEL: {
-        SOCIAL_SCIENCE: ["Lesson 1 - Tracing Changes (H)", "Lesson 2 - New Kings & Kingdoms (H)", "Lesson 1 - Environment (G)", "Lesson 2 - Inside Our Earth (G)", "Lesson 1 - On Equality (P)", "Lesson 2 - Role of the Government in Health (P)"],
-        IT: ["Lesson 1 - Introduction to Number System", "Lesson 2 - Cyber Security", "Lesson 7 - Creating Animations With Canva"],
-        GENERAL_SCIENCE: ["Lesson 1 - The Ever Evolving World of Science", "Lesson 2 - Exploring Substances - Basic, Acidic & Neutral", "Lesson 3 - Electricity: Circuits & Their Components", "Lesson 4 - The World of Metals & Non-metals", "Lesson 5 - Changes Around Us: Physical and Chemical", "Lesson 6 - Adolescence: A Stage of Growth & Change"],
-        HINDI: ["Lesson 1 - Desh Hamara Pyara Pyara", "Lesson 2 - Onam Ka Tyohar", "Lesson 3 - Dadi Maa Ka Ashirvad"],
-        ENGLISH: ["Lesson 1 - Three Questions", "Lesson 2 - The Squirrel", "Lesson 3 - A Gift of Chappals", "Lesson 4 - The Rebel", "Lesson 1 (Supplementary Reader)"],
-        MATHEMATICS: ["Lesson 1 - Integers", "Lesson 2 - Large Numbers", "Lesson 3 - Arithmetic Expressions"],
-        MALAYALAM: ["Lesson 1 - ഇത് ആരുടെ ഭൂമി?", "Lesson 2 - കുട്ടിക്കാലം"],
+        SOCIAL_SCIENCE: ["Lesson 3 - 12th & 13th  Century (H)", "Lesson 4 - Mughal Empire (H)", "Lesson 3 - Our Changing Earth (G)", "Lesson 4 - Air (G)", "Lesson 3 - State Government Works (P)", "Lesson 4 - Girls & Boys Grow Up (P)"],
+        IT: ["Lesson 1 - Introduction to Number System", "Lesson 2 - Cyber Security", "Lesson 4 - Calculations Using Spreadsheets", "Lesson 5 - Visualizing Data Using Spreadsheets", "Lesson 7 - Creating Animations With Canva"],
+        GENERAL_SCIENCE: ["Lesson 2 - Exploring Substances - Basic, Acidic & Neutral", "Lesson 3 - Electricity: Circuits & Their Components", "Lesson 4 - The World of Metals & Non-metals", "Lesson 5 - Changes Around Us: Physical and Chemical", "Lesson 6 - Adolescence: A Stage of Growth & Change"],
+        HINDI: ["Lesson 1 - Desh Hamara Pyara Pyara", "Lesson 2 - Onam Ka Tyohar", "Lesson 4 - Pakshiyon ki Ginthi", "Lesson 5 - Poorv ka Scotland - Shillong", "Lesson 6 - Pushp ki Abhilasha"],
+        ENGLISH: ["Lesson 3 - Gopal & The Hilsa Fish", "Poem 3 - The Shed", "Lesson 4 - The Ashes That Made Trees Bloom", "Poem 4 - Chivvy", "Lesson 1 - The Tiny Teacher (SR)", "Lesson 3 - Golu Grown A Nose", "Lesson 4 - Chandni"],
+        MATHEMATICS: ["Lesson 1 - Integers", "Lesson 3 - Arithmetic Expressions", "Lesson 4 - Expressions Using Letter Numbers", "Lesson 5 - Parallel & Intersecting Lines", "Lesson 8 - Working With Fractions" ],
+        MALAYALAM: ["Lesson 1 - ഇത് ആരുടെ ഭൂമി?", "Lesson 2 - കുട്ടിക്കാലം", "Lesson 3 - സത്യസന്ധത", "Lesson 4 - കാറ്റേ കടലേ", "Lesson 5 - അച്ഛൻ പിറന്ന വീട്"],
     },
 };
 
