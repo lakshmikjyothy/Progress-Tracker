@@ -1,12 +1,11 @@
-
 const studentData = {
     JELWIN: {
-        MATHEMATICS: ["Lesson 1 - What's in a Name", "Lesson 2 - Toy Joy", "Lesson 3 - Double Century", "Lesson 4 - Vacation With My Nani Maa", "Lesson 5 - Fun With Shapes", "Lesson 6 - House of Hundreds - I", "Lesson 7 - Raksha Bandhan"], 
-        ENGLISH: ["Lesson 1 - Fun With Friends", "Lesson 2 - Colours", "Lesson 3 - Badal & Moti", "Lesson 4 - Best Friends", "Lesson 5 - Out in the Garden", "Lesson 6 - Talking Toys", "Lesson 7 - Paper Boats", "Grammar 1 - Noun & Types of Noun", "Grammar 2 - Singular & Plural", "Grammar 3 - Pronoun", "Grammar 4 - Helping Verbs"],
-        IT: ["Lesson 1 - Understanding Computers", "Lesson 5 - Let Us Paint"],
+        MATHEMATICS: ["Lesson 1 - What's in a Name", "Lesson 2 - Toy Joy", "Lesson 3 - Double Century", "Lesson 4 - Vacation With My Nani Maa", "Lesson 5 - Fun With Shapes", "Lesson 6 - House of Hundreds - I"], 
+        ENGLISH: ["Lesson 4 - Best Friends", "Lesson 5 - Out in the Garden", "Lesson 6 - Talking Toys", "Lesson 7 - Paper Boats", "Grammar 1 - Articles", "Grammar 2 - Pronoun", "Grammar 3 - Helping Verbs"],
+        IT: ["Lesson 2 - Introduction to Operating System", "Lesson 3 - Files & Folders", "Lesson 4 - Net Surfing", "Lesson 5 - Let Us Paint",  "Lesson 1 - Introduction to Scratch 3.0 (C)"],
         MALAYALAM: ["Lesson 1 - വിട്ടയയ്ക്കുക", "Lesson 2 - സന്തോഷവാനായ രാജകുമാരൻ", "Lesson 3 - ഓണക്കാഴ്ച",
-        "Lesson 4 - തെനാലിരാമൻ", "Lesson 5 - നങ്ങേലിയും കുട്ടിയും", "Lesson 6 - ഏഴിലമ്പാലയും കുഞ്ഞിപ്പൂവും"],
-        HINDI: ["Lesson 1 - Chitra Katha", "Lesson 2 - Thithaly", "Lesson 3 - Sher Ka Aasan", "Lesson 4 - Koove Ka Mendak", "Lesson 5  - Kadam Badaavo", "Lesson 6 - Chaalaak Machali"],
+        "Lesson 4 - തെനാലിരാമൻ", "Lesson 5 - നങ്ങേലിയും കുട്ടിയും", "Lesson 6 - ഏഴിലമ്പാലയും കുഞ്ഞിപ്പൂവും", "Lesson 7 - വാഴക്കുല"],
+        HINDI: ["Lesson 2 - Thithaly", "Lesson 3 - Sher Ka Aasan", "Lesson 4 - Koove Ka Mendak", "Lesson 5  - Kadam Badhao", "Lesson 6 - Chaalaak Machale"],
         EVS: ["Lesson 1 - Family & Friends", "Lesson 2 - Going to the Mela", "Lesson 3 - Celebrating Festivals", "Lesson 4 - Getting to know Plants", "Lesson 5 - Plants & Animals Live Together", "Lesson 6 - Living in Harmony"]
     },
     JEWEL: {
@@ -98,6 +97,8 @@ markLessonsAsDone("JELWIN", "MATHEMATICS", [
     // "Lesson 3 - Double Century",
     // "Lesson 2 - Toy Joy",
     // "Lesson 1 - What's in a Name"
+     "Lesson 4 - Vacation With My Nani Maa",
+    // "Lesson 5 - Fun With Shapes",
 ]);
 
 markLessonsAsDone("JELWIN", "MALAYALAM", [
@@ -157,12 +158,7 @@ markLessonsAsDone("JEWEL", "ENGLISH", [
 ]);
 
 markLessonsAsDone("JEWEL", "SOCIAL_SCIENCE", [
-    // "Lesson 1 - Environment (G)",
-    // "Lesson 2 - Role of the Government in Health (P)",
-    // "Lesson 1 - Tracing Changes (H)",
-    // "Lesson 2 - Inside Our Earth (G)",
-    // "Lesson 1 - On Equality (P)",
-    // "Lesson 2 - New Kings & Kingdoms (H)",
+    "Lesson 3 - Our Changing Earth (G)",
 ]);
 
 
