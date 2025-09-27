@@ -1,6 +1,7 @@
+
 const studentData = {
     JELWIN: {
-        MATHEMATICS: ["Lesson 1 - What's in a Name", "Lesson 2 - Toy Joy", "Lesson 3 - Double Century", "Lesson 4 - Vacation With My Nani Maa", "Lesson 5 - Fun With Shapes", "Lesson 6 - House of Hundreds - I"], 
+        MATHEMATICS: ["Lesson 4 - Vacation With My Nani Maa", "Lesson 5 - Fun With Shapes", "Lesson 6 - House of Hundreds - I"], 
         ENGLISH: ["Lesson 4 - Best Friends", "Lesson 5 - Out in the Garden", "Lesson 6 - Talking Toys", "Lesson 7 - Paper Boats", "Grammar 1 - Articles", "Grammar 2 - Pronoun", "Grammar 3 - Helping Verbs"],
         IT: ["Lesson 2 - Introduction to Operating System", "Lesson 3 - Files & Folders", "Lesson 4 - Net Surfing", "Lesson 5 - Let Us Paint",  "Lesson 1 - Introduction to Scratch 3.0 (C)"],
         MALAYALAM: ["Lesson 1 - വിട്ടയയ്ക്കുക", "Lesson 2 - സന്തോഷവാനായ രാജകുമാരൻ", "Lesson 3 - ഓണക്കാഴ്ച",
@@ -108,12 +109,13 @@ markLessonsAsDone("JELWIN", "MALAYALAM", [
 ]);
 
 markLessonsAsDone("JELWIN", "ENGLISH", [
-    // "Lesson 1 - Fun With Friends",
-    // "Lesson 2 - Colours",
-    // "Lesson 3 - Badal & Moti",
-    // "Lesson 4 - Best Friends",
-    // "Grammar 1 - Noun & Types of Noun",
-    // "Grammar 2 - Singular & Plural"
+    "Lesson 4 - Best Friends", 
+    "Lesson 5 - Out in the Garden", 
+    "Lesson 6 - Talking Toys", 
+    "Lesson 7 - Paper Boats", 
+    "Grammar 1 - Articles", 
+    "Grammar 2 - Pronoun", 
+    "Grammar 3 - Helping Verbs"
 ]);
 
 markLessonsAsDone("JELWIN", "IT", [
