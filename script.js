@@ -148,7 +148,8 @@ markLessonsAsDone("JEWEL", "IT", [
 
 markLessonsAsDone("JEWEL", "MALAYALAM", [
     // "Lesson 1 - ഇത് ആരുടെ ഭൂമി?",
-    // "Lesson 2 - കുട്ടിക്കാലം"
+    // "Lesson 2 - കുട്ടിക്കാലം",
+    "Lesson 4 - കാറ്റേ കടലേ",
 ]);
 
 markLessonsAsDone("JEWEL", "ENGLISH", [
@@ -244,3 +245,4 @@ window.addEventListener('scroll', () => {
     const scrollY = window.scrollY / 1000;
     document.documentElement.style.setProperty('--scroll', scrollY);
 });
+
