@@ -7,10 +7,11 @@ const studentData = {
         MALAYALAM: ["Lesson 1 - വിട്ടയയ്ക്കുക", "Lesson 2 - സന്തോഷവാനായ രാജകുമാരൻ", "Lesson 3 - ഓണക്കാഴ്ച",
         "Lesson 4 - തെനാലിരാമൻ", "Lesson 5 - നങ്ങേലിയും കുട്ടിയും", "Lesson 6 - ഏഴിലമ്പാലയും കുഞ്ഞിപ്പൂവും", "Lesson 7 - വാഴക്കുല"],
         HINDI: ["Lesson 2 - Thithaly", "Lesson 3 - Sher Ka Aasan", "Lesson 4 - Koove Ka Mendak", "Lesson 5  - Kadam Badhao", "Lesson 6 - Chaalaak Machale"],
-        EVS: ["Lesson 1 - Family & Friends", "Lesson 2 - Going to the Mela", "Lesson 3 - Celebrating Festivals", "Lesson 4 - Getting to know Plants", "Lesson 5 - Plants & Animals Live Together", "Lesson 6 - Living in Harmony"]
+        EVS: ["Lesson 1 - Family & Friends", "Lesson 2 - Going to the Mela", "Lesson 4 - Getting to know Plants", "Lesson 5 - Plants & Animals Live Together", "Lesson 6 - Living in Harmony"]
     },
     JEWEL: {
-        SOCIAL_SCIENCE: ["Lesson 3 - 12th & 13th  Century (H)", "Lesson 4 - Mughal Empire (H)", "Lesson 3 - Our Changing Earth (G)", "Lesson 4 - Air (G)", "Lesson 3 - State Government Works (P)", "Lesson 4 - Girls & Boys Grow Up (P)"],
+        SOCIAL_SCIENCE: ["Lesson 3 - Delhi 12th - 15th Century (H)", 
+    "Lesson 4 - The Mughals 16th - 17th Century (H)",  "Lesson 3 - Our Changing Earth (G)", "Lesson 4 - Air (G)", "Lesson 3 - State Government Works (P)", "Lesson 4 - Girls & Boys Grow Up (P)"],
         IT: ["Lesson 1 - Introduction to Number System", "Lesson 2 - Cyber Security", "Lesson 4 - Calculations Using Spreadsheets", "Lesson 5 - Visualizing Data Using Spreadsheets", "Lesson 7 - Creating Animations With Canva"],
         GENERAL_SCIENCE: ["Lesson 2 - Exploring Substances - Basic, Acidic & Neutral", "Lesson 3 - Electricity: Circuits & Their Components", "Lesson 4 - The World of Metals & Non-metals", "Lesson 5 - Changes Around Us: Physical and Chemical", "Lesson 6 - Adolescence: A Stage of Growth & Change"],
         HINDI: ["Lesson 1 - Desh Hamara Pyara Pyara", "Lesson 2 - Onam Ka Tyohar", "Lesson 4 - Pakshiyon ki Ginthi", "Lesson 5 - Poorv ka Scotland - Shillong", "Lesson 6 - Pushp ki Abhilasha"],
@@ -82,30 +83,10 @@ function markLessonsAsDone(student, subject, lessons) {
 
 localStorage.clear(); // ⚠️ Clears everything in localStorage
 
-markLessonsAsDone("JELWIN", "EVS", [
-    // "Lesson 1 - Family & Friends",
-    // "Lesson 2 - Going to the Mela",
-    // "Lesson 3 - Celebrating Festivals"
-]);
-
-markLessonsAsDone("JELWIN", "HINDI", [
-    // "Lesson 3 - Sher Ka Aasan",
-    // "Lesson 2 - Thithaly",
-    // "Lesson 1 - Chitra Katha"
-]);
-
 markLessonsAsDone("JELWIN", "MATHEMATICS", [
-    // "Lesson 3 - Double Century",
-    // "Lesson 2 - Toy Joy",
-    // "Lesson 1 - What's in a Name"
-     "Lesson 4 - Vacation With My Nani Maa",
-    // "Lesson 5 - Fun With Shapes",
-]);
-
-markLessonsAsDone("JELWIN", "MALAYALAM", [
-    // "Lesson 1 - വിട്ടയയ്ക്കുക",
-    // "Lesson 2 - സന്തോഷവാനായ രാജകുമാരൻ",
-    // "Lesson 3 - ഓണക്കാഴ്ച"
+    "Lesson 4 - Vacation With My Nani Maa", 
+    "Lesson 5 - Fun With Shapes", 
+    // "Lesson 6 - House of Hundreds - I"
 ]);
 
 markLessonsAsDone("JELWIN", "ENGLISH", [
@@ -119,12 +100,45 @@ markLessonsAsDone("JELWIN", "ENGLISH", [
 ]);
 
 markLessonsAsDone("JELWIN", "IT", [
-    // "Lesson 1 - Understanding Computers",
-    // "Lesson 5 - Let Us Paint"
+    // "Lesson 2 - Introduction to Operating System", 
+    // "Lesson 3 - Files & Folders", 
+    // "Lesson 4 - Net Surfing", 
+    // "Lesson 5 - Let Us Paint",  
+    // "Lesson 1 - Introduction to Scratch 3.0 (C)"
 ]);
 
+markLessonsAsDone("JELWIN", "MALAYALAM", [
+    // "Lesson 1 - വിട്ടയയ്ക്കുക", 
+    // "Lesson 2 - സന്തോഷവാനായ രാജകുമാരൻ", 
+    // "Lesson 3 - ഓണക്കാഴ്ച",
+    // "Lesson 4 - തെനാലിരാമൻ", 
+    // "Lesson 5 - നങ്ങേലിയും കുട്ടിയും", 
+    // "Lesson 6 - ഏഴിലമ്പാലയും കുഞ്ഞിപ്പൂവും", 
+    // "Lesson 7 - വാഴക്കുല"
+]);
+
+markLessonsAsDone("JELWIN", "HINDI", [
+    // "Lesson 2 - Thithaly", 
+    // "Lesson 3 - Sher Ka Aasan", 
+    // "Lesson 4 - Koove Ka Mendak", 
+    // "Lesson 5  - Kadam Badhao", 
+    // "Lesson 6 - Chaalaak Machale"
+]);
+
+markLessonsAsDone("JELWIN", "EVS", [
+    "Lesson 1 - Family & Friends", 
+    "Lesson 2 - Going to the Mela",  
+    "Lesson 4 - Getting to know Plants", 
+    // "Lesson 5 - Plants & Animals Live Together", 
+    // "Lesson 6 - Living in Harmony"
+]);
+
+
+
+
+
+
 markLessonsAsDone("JEWEL", "GENERAL_SCIENCE", [
-    // "Lesson 1 - The Ever Evolving World of Science",
     // "Lesson 2 - Exploring Substances - Basic, Acidic & Neutral"
 ]);
 
@@ -161,7 +175,13 @@ markLessonsAsDone("JEWEL", "ENGLISH", [
 ]);
 
 markLessonsAsDone("JEWEL", "SOCIAL_SCIENCE", [
-    "Lesson 3 - Our Changing Earth (G)",
+    "Lesson 3 - Delhi 12th - 15th Century (H)", 
+    // "Lesson 4 - The Mughals 16th - 17th Century (H)", 
+    "Lesson 3 - Our Changing Earth (G)", 
+    "Lesson 4 - Air (G)", 
+    // "Lesson 3 - State Government Works (P)", 
+    // "Lesson 4 - Girls & Boys Grow Up (P)"
+
 ]);
 
 
@@ -245,4 +265,3 @@ window.addEventListener('scroll', () => {
     const scrollY = window.scrollY / 1000;
     document.documentElement.style.setProperty('--scroll', scrollY);
 });
-
