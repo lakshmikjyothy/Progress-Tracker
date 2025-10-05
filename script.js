@@ -86,7 +86,7 @@ localStorage.clear(); // ⚠️ Clears everything in localStorage
 markLessonsAsDone("JELWIN", "MATHEMATICS", [
     "Lesson 4 - Vacation With My Nani Maa", 
     "Lesson 5 - Fun With Shapes", 
-    // "Lesson 6 - House of Hundreds - I"
+    "Lesson 6 - House of Hundreds - I"
 ]);
 
 markLessonsAsDone("JELWIN", "ENGLISH", [
@@ -104,7 +104,7 @@ markLessonsAsDone("JELWIN", "IT", [
     // "Lesson 3 - Files & Folders", 
     // "Lesson 4 - Net Surfing", 
     // "Lesson 5 - Let Us Paint",  
-    // "Lesson 1 - Introduction to Scratch 3.0 (C)"
+    "Lesson 1 - Introduction to Scratch 3.0 (C)"
 ]);
 
 markLessonsAsDone("JELWIN", "MALAYALAM", [
@@ -139,7 +139,7 @@ markLessonsAsDone("JELWIN", "EVS", [
 
 
 markLessonsAsDone("JEWEL", "GENERAL_SCIENCE", [
-    // "Lesson 2 - Exploring Substances - Basic, Acidic & Neutral"
+    "Lesson 2 - Exploring Substances - Basic, Acidic & Neutral"
 ]);
 
 markLessonsAsDone("JEWEL", "HINDI", [
@@ -176,11 +176,11 @@ markLessonsAsDone("JEWEL", "ENGLISH", [
 
 markLessonsAsDone("JEWEL", "SOCIAL_SCIENCE", [
     "Lesson 3 - Delhi 12th - 15th Century (H)", 
-    // "Lesson 4 - The Mughals 16th - 17th Century (H)", 
+    "Lesson 4 - The Mughals 16th - 17th Century (H)", 
     "Lesson 3 - Our Changing Earth (G)", 
     "Lesson 4 - Air (G)", 
-    // "Lesson 3 - State Government Works (P)", 
-    // "Lesson 4 - Girls & Boys Grow Up (P)"
+    "Lesson 3 - State Government Works (P)", 
+    "Lesson 4 - Girls & Boys Grow Up (P)"
 
 ]);
 
