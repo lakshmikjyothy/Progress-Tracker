@@ -4,7 +4,7 @@ const studentData = {
         MATHEMATICS: ["Lesson 4 - Vacation With My Nani Maa", "Lesson 5 - Fun With Shapes", "Lesson 6 - House of Hundreds - I"], 
         ENGLISH: ["Lesson 4 - Best Friends", "Lesson 5 - Out in the Garden", "Lesson 6 - Talking Toys", "Lesson 7 - Paper Boats", "Grammar 1 - Articles", "Grammar 2 - Pronoun", "Grammar 3 - Helping Verbs"],
         IT: ["Lesson 2 - Introduction to Operating System", "Lesson 3 - Files & Folders", "Lesson 4 - Net Surfing", "Lesson 5 - Let Us Paint",  "Lesson 1 - Introduction to Scratch 3.0 (C)"],
-        MALAYALAM: ["Lesson 1 - വിട്ടയയ്ക്കുക", "Lesson 2 - സന്തോഷവാനായ രാജകുമാരൻ", "Lesson 3 - ഓണക്കാഴ്ച",
+        MALAYALAM: ["Lesson 3 - ഓണക്കാഴ്ച",
         "Lesson 4 - തെനാലിരാമൻ", "Lesson 5 - നങ്ങേലിയും കുട്ടിയും", "Lesson 6 - ഏഴിലമ്പാലയും കുഞ്ഞിപ്പൂവും", "Lesson 7 - വാഴക്കുല"],
         HINDI: ["Lesson 2 - Thithaly", "Lesson 3 - Sher Ka Aasan", "Lesson 4 - Koove Ka Mendak", "Lesson 5  - Kadam Badhao", "Lesson 6 - Chaalaak Machale"],
         EVS: ["Lesson 1 - Family & Friends", "Lesson 2 - Going to the Mela", "Lesson 4 - Getting to know Plants", "Lesson 5 - Plants & Animals Live Together", "Lesson 6 - Living in Harmony"]
@@ -100,16 +100,14 @@ markLessonsAsDone("JELWIN", "ENGLISH", [
 ]);
 
 markLessonsAsDone("JELWIN", "IT", [
-    // "Lesson 2 - Introduction to Operating System", 
-    // "Lesson 3 - Files & Folders", 
-    // "Lesson 4 - Net Surfing", 
-    // "Lesson 5 - Let Us Paint",  
+    "Lesson 2 - Introduction to Operating System", 
+    "Lesson 3 - Files & Folders", 
+    "Lesson 4 - Net Surfing", 
+    "Lesson 5 - Let Us Paint",  
     "Lesson 1 - Introduction to Scratch 3.0 (C)"
 ]);
 
-markLessonsAsDone("JELWIN", "MALAYALAM", [
-    // "Lesson 1 - വിട്ടയയ്ക്കുക", 
-    // "Lesson 2 - സന്തോഷവാനായ രാജകുമാരൻ", 
+markLessonsAsDone("JELWIN", "MALAYALAM", [ 
     // "Lesson 3 - ഓണക്കാഴ്ച",
     // "Lesson 4 - തെനാലിരാമൻ", 
     // "Lesson 5 - നങ്ങേലിയും കുട്ടിയും", 
@@ -137,43 +135,6 @@ markLessonsAsDone("JELWIN", "EVS", [
 
 
 
-
-markLessonsAsDone("JEWEL", "GENERAL_SCIENCE", [
-    "Lesson 2 - Exploring Substances - Basic, Acidic & Neutral"
-]);
-
-markLessonsAsDone("JEWEL", "HINDI", [
-    // "Lesson 1 - Desh Hamara Pyara Pyara",
-    // "Lesson 3 - Dadi Maa Ka Ashirvad",
-    // "Lesson 2 - Onam Ka Tyohar"
-]);
-
-markLessonsAsDone("JEWEL", "MATHEMATICS", [
-    // "Lesson 2 - Large Numbers",
-    // "Lesson 3 - Arithmetic Expressions",
-    // "Lesson 1 - Integers"
-]);
-
-markLessonsAsDone("JEWEL", "IT", [
-    // "Lesson 2 - Cyber Security",
-    // "Lesson 7 - Creating Animations With Canva",
-    // "Lesson 1 - Introduction to Number System"
-]);
-
-markLessonsAsDone("JEWEL", "MALAYALAM", [
-    // "Lesson 1 - ഇത് ആരുടെ ഭൂമി?",
-    // "Lesson 2 - കുട്ടിക്കാലം",
-    "Lesson 4 - കാറ്റേ കടലേ",
-]);
-
-markLessonsAsDone("JEWEL", "ENGLISH", [
-    // "Lesson 1 - Three Questions",
-    // "Lesson 2 - The Squirrel",
-    // "Lesson 3 - A Gift of Chappals",
-    // "Lesson 4 - The Rebel",
-    // "Lesson 1 (Supplementary Reader)"
-]);
-
 markLessonsAsDone("JEWEL", "SOCIAL_SCIENCE", [
     "Lesson 3 - Delhi 12th - 15th Century (H)", 
     "Lesson 4 - The Mughals 16th - 17th Century (H)", 
@@ -183,6 +144,57 @@ markLessonsAsDone("JEWEL", "SOCIAL_SCIENCE", [
     "Lesson 4 - Girls & Boys Grow Up (P)"
 
 ]);
+
+markLessonsAsDone("JEWEL", "GENERAL_SCIENCE", [
+    "Lesson 2 - Exploring Substances - Basic, Acidic & Neutral",
+    // "Lesson 3 - Electricity: Circuits & Their Components", 
+    // "Lesson 4 - The World of Metals & Non-metals", 
+    // "Lesson 5 - Changes Around Us: Physical and Chemical", 
+    // "Lesson 6 - Adolescence: A Stage of Growth & Change"
+]);
+
+markLessonsAsDone("JEWEL", "IT", [
+    "Lesson 1 - Introduction to Number System",
+    "Lesson 2 - Cyber Security",
+    "Lesson 4 - Calculations Using Spreadsheets", "Lesson 5 - Visualizing Data Using Spreadsheets",
+    "Lesson 7 - Creating Animations With Canva"
+]);
+
+markLessonsAsDone("JEWEL", "HINDI", [
+    // "Lesson 1 - Desh Hamara Pyara Pyara", 
+    // "Lesson 2 - Onam Ka Tyohar", 
+    // "Lesson 4 - Pakshiyon ki Ginthi", 
+    // "Lesson 5 - Poorv ka Scotland - Shillong", "Lesson 6 - Pushp ki Abhilasha"
+]);
+
+markLessonsAsDone("JEWEL", "ENGLISH", [
+    // "Lesson 3 - Gopal & The Hilsa Fish", 
+    // "Poem 3 - The Shed", 
+    // "Lesson 4 - The Ashes That Made Trees Bloom", 
+    // "Poem 4 - Chivvy", 
+    // "Lesson 1 - The Tiny Teacher (SR)", 
+    // "Lesson 3 - Golu Grown A Nose", 
+    // "Lesson 4 - Chandni"
+]);
+
+markLessonsAsDone("JEWEL", "MATHEMATICS", [
+    // "Lesson 1 - Integers"
+    // "Lesson 3 - Arithmetic Expressions",
+    // "Lesson 4 - Expressions Using Letter Numbers", 
+    // "Lesson 5 - Parallel & Intersecting Lines",
+    //  "Lesson 8 - Working With Fractions"
+]);
+
+
+markLessonsAsDone("JEWEL", "MALAYALAM", [
+    "Lesson 1 - ഇത് ആരുടെ ഭൂമി?", 
+    "Lesson 2 - കുട്ടിക്കാലം", 
+    "Lesson 3 - സത്യസന്ധത", 
+    // "Lesson 4 - കാറ്റേ കടലേ", 
+    "Lesson 5 - അച്ഛൻ പിറന്ന വീട്"
+]);
+
+
 
 
 function selectStudent(student) {
