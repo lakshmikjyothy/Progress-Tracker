@@ -147,10 +147,10 @@ markLessonsAsDone("JEWEL", "SOCIAL_SCIENCE", [
 
 markLessonsAsDone("JEWEL", "GENERAL_SCIENCE", [
     "Lesson 2 - Exploring Substances - Basic, Acidic & Neutral",
-    // "Lesson 3 - Electricity: Circuits & Their Components", 
-    // "Lesson 4 - The World of Metals & Non-metals", 
-    // "Lesson 5 - Changes Around Us: Physical and Chemical", 
-    // "Lesson 6 - Adolescence: A Stage of Growth & Change"
+    "Lesson 3 - Electricity: Circuits & Their Components", 
+    "Lesson 4 - The World of Metals & Non-metals", 
+    "Lesson 5 - Changes Around Us: Physical and Chemical", 
+    "Lesson 6 - Adolescence: A Stage of Growth & Change"
 ]);
 
 markLessonsAsDone("JEWEL", "IT", [
@@ -164,7 +164,8 @@ markLessonsAsDone("JEWEL", "HINDI", [
     // "Lesson 1 - Desh Hamara Pyara Pyara", 
     // "Lesson 2 - Onam Ka Tyohar", 
     // "Lesson 4 - Pakshiyon ki Ginthi", 
-    // "Lesson 5 - Poorv ka Scotland - Shillong", "Lesson 6 - Pushp ki Abhilasha"
+    // "Lesson 5 - Poorv ka Scotland - Shillong", 
+    // "Lesson 6 - Pushp ki Abhilasha"
 ]);
 
 markLessonsAsDone("JEWEL", "ENGLISH", [
