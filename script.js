@@ -108,11 +108,11 @@ markLessonsAsDone("JELWIN", "IT", [
 ]);
 
 markLessonsAsDone("JELWIN", "MALAYALAM", [ 
-    // "Lesson 3 - ഓണക്കാഴ്ച",
-    // "Lesson 4 - തെനാലിരാമൻ", 
-    // "Lesson 5 - നങ്ങേലിയും കുട്ടിയും", 
-    // "Lesson 6 - ഏഴിലമ്പാലയും കുഞ്ഞിപ്പൂവും", 
-    // "Lesson 7 - വാഴക്കുല"
+    "Lesson 3 - ഓണക്കാഴ്ച",
+    "Lesson 4 - തെനാലിരാമൻ", 
+    "Lesson 5 - നങ്ങേലിയും കുട്ടിയും", 
+    "Lesson 6 - ഏഴിലമ്പാലയും കുഞ്ഞിപ്പൂവും", 
+    "Lesson 7 - വാഴക്കുല"
 ]);
 
 markLessonsAsDone("JELWIN", "HINDI", [
@@ -161,11 +161,11 @@ markLessonsAsDone("JEWEL", "IT", [
 ]);
 
 markLessonsAsDone("JEWEL", "HINDI", [
-    // "Lesson 1 - Desh Hamara Pyara Pyara", 
-    // "Lesson 2 - Onam Ka Tyohar", 
-    // "Lesson 4 - Pakshiyon ki Ginthi", 
-    // "Lesson 5 - Poorv ka Scotland - Shillong", 
-    // "Lesson 6 - Pushp ki Abhilasha"
+    "Lesson 1 - Desh Hamara Pyara Pyara", 
+    "Lesson 2 - Onam Ka Tyohar", 
+    "Lesson 4 - Pakshiyon ki Ginthi", 
+    "Lesson 5 - Poorv ka Scotland - Shillong", 
+    "Lesson 6 - Pushp ki Abhilasha"
 ]);
 
 markLessonsAsDone("JEWEL", "ENGLISH", [
@@ -189,10 +189,10 @@ markLessonsAsDone("JEWEL", "MATHEMATICS", [
 
 markLessonsAsDone("JEWEL", "MALAYALAM", [
     "Lesson 1 - ഇത് ആരുടെ ഭൂമി?", 
-    "Lesson 2 - കുട്ടിക്കാലം", 
-    "Lesson 3 - സത്യസന്ധത", 
-    // "Lesson 4 - കാറ്റേ കടലേ", 
-    "Lesson 5 - അച്ഛൻ പിറന്ന വീട്"
+    // "Lesson 2 - കുട്ടിക്കാലം", 
+    // "Lesson 3 - സത്യസന്ധത", 
+    "Lesson 4 - കാറ്റേ കടലേ", 
+    // "Lesson 5 - അച്ഛൻ പിറന്ന വീട്"
 ]);
 
 
