@@ -116,19 +116,19 @@ markLessonsAsDone("JELWIN", "MALAYALAM", [
 ]);
 
 markLessonsAsDone("JELWIN", "HINDI", [
-    // "Lesson 2 - Thithaly", 
-    // "Lesson 3 - Sher Ka Aasan", 
-    // "Lesson 4 - Koove Ka Mendak", 
-    // "Lesson 5  - Kadam Badhao", 
-    // "Lesson 6 - Chaalaak Machale"
+    "Lesson 2 - Thithaly", 
+    "Lesson 3 - Sher Ka Aasan", 
+    "Lesson 4 - Koove Ka Mendak", 
+    "Lesson 5  - Kadam Badhao", 
+    "Lesson 6 - Chaalaak Machale"
 ]);
 
 markLessonsAsDone("JELWIN", "EVS", [
     "Lesson 1 - Family & Friends", 
     "Lesson 2 - Going to the Mela",  
     "Lesson 4 - Getting to know Plants", 
-    // "Lesson 5 - Plants & Animals Live Together", 
-    // "Lesson 6 - Living in Harmony"
+    "Lesson 5 - Plants & Animals Live Together", 
+    "Lesson 6 - Living in Harmony"
 ]);
 
 
@@ -169,21 +169,21 @@ markLessonsAsDone("JEWEL", "HINDI", [
 ]);
 
 markLessonsAsDone("JEWEL", "ENGLISH", [
-    // "Lesson 3 - Gopal & The Hilsa Fish", 
-    // "Poem 3 - The Shed", 
-    // "Lesson 4 - The Ashes That Made Trees Bloom", 
-    // "Poem 4 - Chivvy", 
-    // "Lesson 1 - The Tiny Teacher (SR)", 
-    // "Lesson 3 - Golu Grown A Nose", 
-    // "Lesson 4 - Chandni"
+    "Lesson 3 - Gopal & The Hilsa Fish", 
+    "Poem 3 - The Shed", 
+    "Lesson 4 - The Ashes That Made Trees Bloom", 
+    "Poem 4 - Chivvy", 
+    "Lesson 1 - The Tiny Teacher (SR)", 
+    "Lesson 3 - Golu Grown A Nose", 
+    "Lesson 4 - Chandni"
 ]);
 
 markLessonsAsDone("JEWEL", "MATHEMATICS", [
-    // "Lesson 1 - Integers"
-    // "Lesson 3 - Arithmetic Expressions",
-    // "Lesson 4 - Expressions Using Letter Numbers", 
-    // "Lesson 5 - Parallel & Intersecting Lines",
-    //  "Lesson 8 - Working With Fractions"
+    "Lesson 1 - Integers",
+    "Lesson 3 - Arithmetic Expressions",
+    "Lesson 4 - Expressions Using Letter Numbers", 
+    "Lesson 5 - Parallel & Intersecting Lines",
+     "Lesson 8 - Working With Fractions"
 ]);
 
 
